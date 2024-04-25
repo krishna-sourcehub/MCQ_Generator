@@ -4,7 +4,7 @@ from haystack.document_stores import InMemoryDocumentStore
 from haystack.utils import clean_wiki_text, convert_files_to_docs
 from haystack.nodes import TfidfRetriever, FARMReader
 from haystack.pipelines import ExtractiveQAPipeline
-from main import print_qa, QuestionGenerator
+from MCQ_Generator.main import print_qa, QuestionGenerator
 
 def main():
     # Set the Streamlit app title
